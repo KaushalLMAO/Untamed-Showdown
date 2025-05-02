@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #eef2f5;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+#ulm {
+  margin: 20px auto;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  background: linear-gradient(to right, #ff7e5f, #4de7b4);
+  color: white;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.players {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  width: 380px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.players img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.players p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.health {
+  width: 100%;
+  height: 12px;
+  background: linear-gradient(to right, lime, green);
+  border-radius: 20px;
+  margin: 10px 0;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.moves {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.move {
+  padding: 10px;
+  background: #f0f0f0;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.move:hover {
+  background: #d2f8e5;
+}
+
+.move-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px 10px;
+  background: #fff7f7;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.sub_move {
+  flex: 1;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #666;
+  align-self: center;
+  margin-top: 10%;
+}
