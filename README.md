@@ -25,11 +25,34 @@ A **no-rules** Pokémon battle simulator where:
 
 
 ---
+# Clone the chaos:
+git clone https://github.com/yourname/untamed-showdown.git
+cd untamed-showdown
 
+### Key Features:
+1. **Visual Hierarchy**: Banner → Gameplay → Instructions → Tech  
+2. **Legal Protection**: Clear copyright disclaimer + PokeAPI credit  
+3. **Roadmap Table**: Clean feature tracking  
+4. **Mermaid Diagram**: Tech stack visualization  
+5. **Humorous Tone**: Matches the "untamed" theme  
+
+### To Customize:
+1. Replace placeholder images with **actual screenshots**  
+2. Add your **GitHub/Social links** in "Special Thanks"  
+3. Update the **roadmap** with your real plans  
+
+Want me to:  
+- Add a **"Hall of Fame"** for top winners?  
+- Include **keyboard controls** section?  
+- Add a **dark mode toggle** preview?
+# Open in browser (Chrome/Firefox recommended):
+open index.html
 ## ⚙️ TECH TRIBE  
 ```mermaid
 graph TB
     PokeAPI-->|Feeds Data| JavaScript
     JavaScript-->|Track Wins| localStorage
     JavaScript-->|Render Battle| HTML5/CSS3
-    HTML5/CSS3-->Mobile-Friendly
+    HTML5/CSS3-->Mobile-Friendly 
+
+
